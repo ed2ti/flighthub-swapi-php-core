@@ -1,0 +1,1 @@
+# flighthub-swapi-php-core
