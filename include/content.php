@@ -1,5 +1,5 @@
 <?php
- if ($_REQUEST['call']=='people'){
+ if ($_REQUEST['call']=='people' || $_REQUEST['call']==''){
     @require_once "content_people.php";
  }else if ($_REQUEST['call']=='planets'){
     @require_once "content_planets.php";
